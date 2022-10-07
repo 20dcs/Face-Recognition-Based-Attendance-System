@@ -35,14 +35,8 @@ HOW TO RUN:
 MAIN SCREEN:
 ![Screenshot (9)](https://user-images.githubusercontent.com/85406129/194505003-65dd5f41-f93c-429c-8d48-fb2d390d17d5.png)
 
-TAKING ATTENDANCE:
-![Screenshot (10)](https://user-images.githubusercontent.com/37211676/58502149-97ec2a00-81a3-11e9-9658-8968da396c2e.png)
-
-SHOWING ATTENDANCE TAKEN:
-![Screenshot (11)](https://user-images.githubusercontent.com/37211676/58502151-9884c080-81a3-11e9-9a90-fec29940ee5a.png)
-
 HELP OPTION IN MENUBAR:
-![Screenshot (12)](https://user-images.githubusercontent.com/37211676/58502152-991d5700-81a3-11e9-861a-9115526010c2.png)
+![Screenshot (12)](https://user-images.githubusercontent.com/85406129/194505945-b682c80f-5121-4a67-9667-73f579045ab8.png)
 
 CHANGE PASSWORD OPTION:
-![Screenshot (13)](https://user-images.githubusercontent.com/37211676/58502146-97539380-81a3-11e9-8536-0c68160ecc55.png)
+![Screenshot (13)](https://user-images.githubusercontent.com/85406129/194505884-f583d083-fde1-4268-9d9c-1c75c33d819e.png)
