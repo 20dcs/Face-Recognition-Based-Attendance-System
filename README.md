@@ -28,6 +28,8 @@ HOW TO RUN:
    7. pip install pillow 
    8. pip install pandas
    9. pip install times
+3) install python extension in VScode
+4) run main.py file
    
 # SCREENSHOTS
 MAIN SCREEN:
