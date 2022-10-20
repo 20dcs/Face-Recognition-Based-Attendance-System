@@ -15,18 +15,28 @@ FEATURES:
 4) Creates a new CSV file everyday for attendance and marks attendance with proper date and time.
 5) Displays live attendance updates for the day on the main screen in tabular format with Id, name, date and time.
 
+HOW TO RUN:
+
+1) Download Python 3.7.0
+2) Run below commands in cmd 1 by 1
+   1. pip install tk-tools
+   2. pip install opencv-contrib-python
+   3. pip install datetime
+   4. pip install pytest-shutil
+   5. pip install python-csv
+   6. pip install numpy
+   7. pip install pillow 
+   8. pip install pandas
+   9. pip install times
+3) install python extension in VScode
+4) run main.py file
+   
 # SCREENSHOTS
 MAIN SCREEN:
-![Screenshot (9)](https://user-images.githubusercontent.com/37211676/58502148-97ec2a00-81a3-11e9-963e-674b9c3e05dc.png)
-
-TAKING ATTENDANCE:
-![Screenshot (10)](https://user-images.githubusercontent.com/37211676/58502149-97ec2a00-81a3-11e9-9658-8968da396c2e.png)
-
-SHOWING ATTENDANCE TAKEN:
-![Screenshot (11)](https://user-images.githubusercontent.com/37211676/58502151-9884c080-81a3-11e9-9a90-fec29940ee5a.png)
+![Screenshot (9)](https://user-images.githubusercontent.com/85406129/194505003-65dd5f41-f93c-429c-8d48-fb2d390d17d5.png)
 
 HELP OPTION IN MENUBAR:
-![Screenshot (12)](https://user-images.githubusercontent.com/37211676/58502152-991d5700-81a3-11e9-861a-9115526010c2.png)
+![Screenshot (12)](https://user-images.githubusercontent.com/85406129/194505945-b682c80f-5121-4a67-9667-73f579045ab8.png)
 
 CHANGE PASSWORD OPTION:
-![Screenshot (13)](https://user-images.githubusercontent.com/37211676/58502146-97539380-81a3-11e9-8536-0c68160ecc55.png)
+![Screenshot (13)](https://user-images.githubusercontent.com/85406129/194505884-f583d083-fde1-4268-9d9c-1c75c33d819e.png)
