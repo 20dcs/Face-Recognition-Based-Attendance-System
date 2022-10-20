@@ -153,8 +153,9 @@ def TakeImages():
     exists = os.path.isfile("StudentDetails\StudentDetails.csv")
     if exists:
         with open("StudentDetails\StudentDetails.csv", 'r') as csvFile1:
-            reader1 = csv.reader(csvFile1)
+            reader1 = csv.reader(set(csvFile1))
             for l in reader1:
+                # print(l[2])
                 serial = serial + 1
         serial = (serial // 2)
         csvFile1.close()
@@ -166,7 +167,18 @@ def TakeImages():
         csvFile1.close()
     Id = (txt.get())
     name = (txt2.get())
-    if ((name.isalpha()) or (' ' in name)):
+    invalidId = False
+    exists = os.path.isfile("StudentDetails\StudentDetails.csv")
+    if exists:
+        with open("StudentDetails\StudentDetails.csv", 'r') as csvFile1:
+            reader1 = csv.reader(set(csvFile1))
+            for l in reader1:
+                print(l)
+                if(l and l[2] == Id):
+                    invalidId = True
+        csvFile1.close()
+    print(invalidId)
+    if (not invalidId and (name.isalpha()) or (' ' in name)):
         cam = cv2.VideoCapture(0)
         harcascadePath = "haarcascade_frontalface_default.xml"
         detector = cv2.CascadeClassifier(harcascadePath)
@@ -200,10 +212,15 @@ def TakeImages():
         csvFile.close()
         message1.configure(text=res)
     else:
+        if (invalidId):
+            res = "Duplicate Id is not allowed"
+            message.configure(text=res)
         if (name.isalpha() == False):
             res = "Enter Correct name"
             message.configure(text=res)
-
+        if (Id[:2] > '21'):
+            res = "Enter Correct Id"
+            message.configure(text=res)
 ########################################################################################
 
 def TrainImages():
